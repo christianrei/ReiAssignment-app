@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="standard_margin">16dp</dimen>
+    <dimen name="post_viewer_image_height">200dp</dimen>
+    <dimen name="post_score_width">24dp</dimen>
+    <dimen name="post_thumbnail_height">160dp</dimen>
+    <dimen name="progress_bar_size">40dp</dimen>
+</resources>

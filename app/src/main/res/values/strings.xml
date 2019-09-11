@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ReiAssignment</string>
+    <string name="main_activity_title">Swift News</string>
+    <string name="comments">comments</string>
+    <string name="try_again">Try Again</string>
+    <string name="generic_reddit_error">There was an error fetching the posts…</string>
+    <string name="no_body_to_show">There is nothing to show! Please try a different post.</string>
+    <string name="url_problem">There was a problem showing the article! Please try a different post.</string>
+</resources>
