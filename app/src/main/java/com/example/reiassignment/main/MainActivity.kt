@@ -56,4 +56,12 @@ class MainActivity : AppCompatActivity(), MainViewController, RedditPostListener
         presenter.onStop()
     }
 
+    override fun showLoadingView() {
+        pb_main_progress.show()
+    }
+
+    override fun hideLoadingView() {
+        pb_main_progress.hide()
+    }
+
 }

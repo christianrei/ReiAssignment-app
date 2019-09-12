@@ -18,8 +18,8 @@ class MainPresenter(private val view: MainViewController) : KoinComponent {
     private val repository: RedditRepository by inject()
     private val compositeDisposable = CompositeDisposable()
 
-    @SuppressLint("CheckResult")
     fun getSubredditData() {
+        view.showLoadingView()
         compositeDisposable.add(
             repository.getSubredditData(KOTLIN_SUBREDDIT_NAME)
                 .subscribeOn(Schedulers.io())
@@ -38,8 +38,10 @@ class MainPresenter(private val view: MainViewController) : KoinComponent {
                         )
                     }
                     view.setAdapter(postDataList)
+                    view.hideLoadingView()
                 }, {
                     view.showErrorView()
+                    view.hideLoadingView()
                 })
         )
     }

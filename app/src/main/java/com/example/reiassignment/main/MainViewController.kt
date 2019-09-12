@@ -6,4 +6,6 @@ interface MainViewController {
     fun setAdapter(postData: List<PostData>)
     fun showErrorView()
     fun launchPostViewerScreen(postData: PostData)
+    fun showLoadingView()
+    fun hideLoadingView()
 }
