@@ -77,28 +77,15 @@ class MainPresenterTest : KoinTest, BaseRxTest() {
                 listOf(
                     Children(
                         ChildData(
-                            false,
                             mockAuthor,
-                            "mockAuthorFullname",
-                            "mockCategory",
-                            false,
-                            8,
-                            true,
-                            23,
                             mockId,
-                            true,
-                            "90",
-                            true,
                             "mockName",
                             mockNumComments,
-                            false,
                             mockScore,
                             mockSelfText,
-                            false,
                             "mockSubreddit",
                             mockThumbnail,
                             mockTitle,
-                            723,
                             mockUrl
                         ), "mockKind"
                     )
